@@ -1,0 +1,38 @@
+{
+  "selected_model_by_cv_roc_auc": "RBF SVM",
+  "train_rows": 227,
+  "test_rows": 76,
+  "test_accuracy": 0.7631578947368421,
+  "test_precision": 0.7446808510638298,
+  "test_recall": 0.8536585365853658,
+  "test_f1": 0.7954545454545454,
+  "test_roc_auc": 0.845993031358885,
+  "cv_results": [
+    {
+      "model": "Logistic Regression",
+      "cv_roc_auc_mean": 0.9121809523809524,
+      "cv_roc_auc_std": 0.03703141278536128
+    },
+    {
+      "model": "K-Nearest Neighbors",
+      "cv_roc_auc_mean": 0.9068396825396825,
+      "cv_roc_auc_std": 0.035671566125999886
+    },
+    {
+      "model": "RBF SVM",
+      "cv_roc_auc_mean": 0.912520634920635,
+      "cv_roc_auc_std": 0.03440939830717662
+    },
+    {
+      "model": "Random Forest",
+      "cv_roc_auc_mean": 0.8973777777777778,
+      "cv_roc_auc_std": 0.03401289219509171
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_roc_auc_mean": 0.8759619047619047,
+      "cv_roc_auc_std": 0.031026378945603526
+    }
+  ],
+  "note": "Educational dataset only; metrics are not evidence of clinical validity."
+}
